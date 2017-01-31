@@ -16,7 +16,7 @@ Utilize the full power of tinc
 
 ### 1. your network 
 
-1.  copy the `/usr/local/etc/tinc/example` folder to `/usr/local/etc/tinc/yournetwork`
+1. copy the `/usr/local/etc/tinc/example` folder to `/usr/local/etc/tinc/yournetwork`
 1. enter `yournetwork` into `/usr/local/etc/tinc/net.boot` to let this network be started on boot
 1. create keypairs by runng `tincd -n <yournetwork> -K`
 
@@ -42,6 +42,6 @@ Utilize the full power of tinc
 
 **Thats it .. and surely more to come**
 
-# credits
+# Credits
 
 Of course credits to the initial author [opnsense tinc](https://github.com/opnsense/plugins/tree/stable/17.1/security/tinc), some of the things in here base on his work straight. Thank you! 
