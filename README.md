@@ -1,10 +1,14 @@
 # WAT
 
-Eventhough there is a opnsense plugin for tinc already, its hard to keep the GUI to offer anything tinc actual offers.
-Be it a infinit amount of subnet, specific modes (switch/hub/routed) or anything else specific.
+Eventhough there is a [opnsense tinc](https://github.com/opnsense/plugins/tree/stable/17.1/security/tinc) plugin already, its hard to keep the GUI offering all the options tinc actual offers.
+Be it a infinit amount of subnets, specific modes (switch/hub/routed) or anything else specific to your setup.
 
-So as an alternativ this plugins offers you all daemon / startup / interface integration and also some starting point for the configuration while letting you doing whatever you want with your configuration.
-So just pick your favorite tincd howto / setup or even existing setup on copy it over here
+So as an alternative this plugins offers you all daemon / startup / interface integration and also some starting point for the configuration while letting you doing whatever you want with your configuration.
+
+**BUT NO GUI!!**
+
+Rather you edit the files using ssh, pick your favorite tincd howto / setup or even existing setup on copy it over here.
+Utilize the full power of tinc
 
 ## Installation
 
