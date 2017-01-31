@@ -42,3 +42,6 @@ Utilize the full power of tinc
 
 **Thats it .. and surely more to come**
 
+# credits
+
+Of course credits to the initial author [opnsense tinc](https://github.com/opnsense/plugins/tree/stable/17.1/security/tinc), some of the things in here base on his work straight. Thank you! 
