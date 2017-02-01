@@ -59,6 +59,16 @@ More then that you have those obvious commands
 
 When you uninstall the plugins, everything you created in `/usr/local/etc/tinc` will kept in place, so you can reinstall it at any time
 
+## Build it yourself / Development
+Connect on your opnsense box
+ 
+    cd /usr/ 
+    mkdir devel && cd devel
+    git clone https://github.com/EugenMayer/tinc-opnsense
+    cd tinc-opnsense/security/tincdcustom
+    make package
+    pkg install work/pkg/os-tincdcustom-*
+    
 # Credits
 
 Of course credits to the initial author [opnsense tinc](https://github.com/opnsense/plugins/tree/stable/17.1/security/tinc), some of the things in here base on his work straight. Thank you! 
