@@ -17,7 +17,7 @@ Utilize the full power of tinc
 ### 1. your network 
 
 1. copy the `/usr/local/etc/tinc/example` folder to `/usr/local/etc/tinc/yournetwork`
-1. enter `yournetwork` into `/usr/local/etc/tinc/net.boot` to let this network be started on boot
+1. enter `yournetwork` into `/usr/local/etc/tinc/nets.boot` to let this network be started on boot
 1. create keypairs by runng `tincd -n <yournetwork> -K`
 
 
@@ -36,11 +36,28 @@ Utilize the full power of tinc
 1. enter the public key of the "other server" into the according `theotherservername` file and adjust the subnet the other server offers (or subnets)
 
 
-## Add the interface 
+### 4. Add the interface 
 
 1. Add the tinc0 interface in the interfaces mask in the opnsense GUI to be able to add routes as you need them in the rules
 
 **Thats it .. and surely more to come**
+
+
+## Service mangement
+
+to restart the service to 
+
+    configctl tincdcustom restart
+     
+More then that you have those obvious commands
+
+    configctl tincdcustom stop
+    configctl tincdcustom start
+    configctl tincdcustom reload
+
+## Uninstallation
+
+When you uninstall the plugins, everything you created in `/usr/local/etc/tinc` will kept in place, so you can reinstall it at any time
 
 # Credits
 
