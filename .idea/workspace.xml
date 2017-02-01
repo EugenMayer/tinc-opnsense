@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9098b2c5-69fc-4bc7-9a98-3f051da2ff14" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Makefile" afterPath="$PROJECT_DIR$/plugins/tinccustom/Makefile" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/etc/rc.d/opnsense-tincd-custom" afterPath="$PROJECT_DIR$/plugins/tinccustom/src/etc/rc.d/opnsense-tincd-custom" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/etc/rc.syshook.d/tinc_intefaces.early" afterPath="$PROJECT_DIR$/plugins/tinccustom/src/etc/rc.syshook.d/tinc_intefaces.early" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/etc/tinc/example/hosts/thetherservername" afterPath="$PROJECT_DIR$/plugins/tinccustom/src/etc/tinc/example/hosts/thetherservername" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/etc/tinc/example/hosts/thisservername" afterPath="$PROJECT_DIR$/plugins/tinccustom/src/etc/tinc/example/hosts/thisservername" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/etc/tinc/example/tinc-up" afterPath="$PROJECT_DIR$/plugins/tinccustom/src/etc/tinc/example/tinc-up" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/etc/tinc/example/tinc.conf" afterPath="$PROJECT_DIR$/plugins/tinccustom/src/etc/tinc/example/tinc.conf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/etc/tinc/net.boot.example" afterPath="$PROJECT_DIR$/plugins/tinccustom/src/etc/tinc/net.boot.example" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/opnsense/service/conf/actions.d/actions_tincd.conf" afterPath="$PROJECT_DIR$/plugins/tinccustom/src/opnsense/service/conf/actions.d/actions_tincd.conf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/opnsense/service/templates/OPNsense/Tinccustom/+TARGETS" afterPath="$PROJECT_DIR$/plugins/tinccustom/src/opnsense/service/templates/OPNsense/Tinccustom/+TARGETS" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/opnsense/service/templates/OPNsense/Tinccustom/rc.conf.d" afterPath="$PROJECT_DIR$/plugins/tinccustom/src/opnsense/service/templates/OPNsense/Tinccustom/rc.conf.d" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -49,7 +38,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Makefile" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Makefile" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/plugins/tinccustom/Makefile">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
@@ -59,11 +48,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="19" lean-forward="false" selection-start-line="0" selection-start-column="19" selection-end-line="0" selection-end-column="19" />
+            <state relative-caret-position="17">
+              <caret line="1" column="16" lean-forward="true" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -158,8 +147,8 @@
         <option value="$PROJECT_DIR$/src/etc/tinc/net.boot" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/Mk/plugins.mk" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/Makefile" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -763,7 +752,7 @@
       <option name="presentableId" value="Default" />
       <updated>1485902924545</updated>
       <workItem from="1485902925933" duration="4157000" />
-      <workItem from="1485930625920" duration="362000" />
+      <workItem from="1485930625920" duration="582000" />
     </task>
     <task id="LOCAL-00001" summary="fix include path">
       <created>1485906359415</created>
@@ -779,11 +768,25 @@
       <option name="project" value="LOCAL" />
       <updated>1485930670822</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="restructure gambling, again and again">
+      <created>1485931002184</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1485931002184</updated>
+    </task>
+    <task id="LOCAL-00004" summary="add make scripts">
+      <created>1485931058719</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1485931058719</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4519000" />
+    <option name="totallyTimeSpent" value="4739000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="982" extended-state="6" />
@@ -794,12 +797,12 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32921347" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32921347" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33820224" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24973376" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24973376" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -824,7 +827,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="fix include path" />
     <MESSAGE value="restructure once again" />
-    <option name="LAST_COMMIT_MESSAGE" value="restructure once again" />
+    <MESSAGE value="restructure gambling, again and again" />
+    <MESSAGE value="add make scripts" />
+    <option name="LAST_COMMIT_MESSAGE" value="add make scripts" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1006,14 +1011,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="19" lean-forward="false" selection-start-line="0" selection-start-column="19" selection-end-line="0" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Mk/plugins.mk">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3288">
@@ -1026,6 +1023,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="16" lean-forward="false" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="16" lean-forward="true" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
           <folding />
         </state>
       </provider>
