@@ -1,2 +1,2 @@
 #!/bin/sh
-ifconfig tun0 create name tinc0
+ifconfig -a | grep tinc0 || ifconfig tun0 create name tinc0
