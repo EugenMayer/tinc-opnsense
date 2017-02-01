@@ -1,6 +1,6 @@
 PLUGIN_NAME=tincdcustom
-PLUGIN_VERSION=0.5
+PLUGIN_VERSION=0.5.1
 PLUGIN_COMMENT=opnsense tincd - custom configuration enabled
 PLUGIN_MAINTAINER=eugen.mayer@kontextwork.de
-
+PLUGIN_DEPENDS=tincd
 .include "../../Mk/plugins.mk"
