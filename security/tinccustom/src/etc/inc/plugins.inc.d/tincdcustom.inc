@@ -9,7 +9,6 @@
  */
 function tincdcustom_services()
 {
-  global $config;
   $services = array();
   $services[] = array(
     'description' => gettext('Tincd Custom'),
