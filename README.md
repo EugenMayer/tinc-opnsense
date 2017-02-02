@@ -14,7 +14,7 @@ Utilize the full power of tinc
 
 The version might change, adjust it if fetch fails
 
-    fetch https://github.com/EugenMayer/tinc-opnsense/raw/master/dist/os-tincdcustom-latest.txz
+    fetch https://raw.githubusercontent.com/EugenMayer/tinc-opnsense/master/dist/os-tincdcustom-latest.txz
     pkg install os-tincdcustom-latest.txz
 
 ### 1. your network
