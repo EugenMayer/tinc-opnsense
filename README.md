@@ -12,9 +12,9 @@ Utilize the full power of tinc
 
 ## Installation
 
-1. Install the plugin
+1. use this repo `dist/os-tincdcustom-*` freebsd package and install it as `pkg install os-tincdcustom-*.txz`
 
-### 1. your network 
+### 1. your network
 
 1. copy the `/usr/local/etc/tinc/example` folder to `/usr/local/etc/tinc/yournetwork`
 1. enter `yournetwork` into `/usr/local/etc/tinc/nets.boot` to let this network be started on boot
