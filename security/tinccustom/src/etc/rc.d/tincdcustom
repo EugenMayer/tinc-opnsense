@@ -9,16 +9,15 @@
 #
 
 . /etc/rc.subr
-name=opnsense-tincd
 
-name="opnsense-tincdcustom"
+name="tincdcustom"
 command="/usr/local/sbin/tincd"
 stop_cmd=tincd_stop
 start_cmd=tincd_start
 reload_cmd="tincd_reload"
 extra_commands="reload"
 procname=${command:-tincd}
-rcvar="OPNtincdcustom_enable"
+rcvar="tincdcustom_enable"
 
 config="/usr/local/etc/tinc"
 netsfile="$config/nets.boot"
@@ -26,7 +25,7 @@ logfile="/var/log/tinc.log"
 
 load_rc_config $name
 
-[ -z "$OPNtincdcustom_enable" ] && OPNtincdcustom_enable="NO"
+[ -z "$tincdcustom_enable" ] && tincdcustom_enable="NO"
 
 find_nets () {
   if [ ! -f $netsfile ] ; then

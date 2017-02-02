@@ -17,7 +17,7 @@ function tincdcustom_services()
       'start' => array('tincdcustom start'),
       'stop' => array('tincdcustom stop'),
     ),
-    'name' => 'tinc',
+    'name' => 'tincdcustom',
   );
   return $services;
 }
