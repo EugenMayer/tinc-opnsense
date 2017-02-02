@@ -64,8 +64,7 @@ When you uninstall the plugins, everything you created in `/usr/local/etc/tinc` 
 ## Build it yourself / Development
 Connect on your opnsense box
  
-    cd /usr/ 
-    mkdir devel && cd devel
+    mkdir -p /usr/devel && cd /usr/devel 
     git clone https://github.com/EugenMayer/tinc-opnsense
     cd tinc-opnsense/security/tincdcustom
     make package
