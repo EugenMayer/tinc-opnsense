@@ -18,7 +18,6 @@ reload_cmd="tincd_reload"
 extra_commands="reload"
 procname=${command:-tincd}
 rcvar="tincdcustom_enable"
-pidfile=/var/run/tincd.pid
 
 config="/usr/local/etc/tinc"
 netsfile="$config/nets.boot"

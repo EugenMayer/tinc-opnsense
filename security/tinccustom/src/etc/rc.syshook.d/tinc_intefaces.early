@@ -1,4 +1,0 @@
-#!/bin/sh
-name=tinc0
-ifconfig -a | grep -q $name || tun=`/sbin/ifconfig tun create`
-ifconfig -a | grep -q $name || (echo "creating $name interface based on tun $tun" && ifconfig $tun name $name && rm -f /dev/$name && ln -s /dev/$tun /dev/$name)
