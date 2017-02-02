@@ -12,9 +12,13 @@ Utilize the full power of tinc
 
 ## Installation
 
-1. use this repo `dist/os-tincdcustom-*` freebsd package and install it as `pkg install os-tincdcustom-*.txz`
+The version might change, adjust it if fetch fails
+
+    fetch https://github.com/EugenMayer/tinc-opnsense/raw/master/dist/os-tincdcustom-0.5.2.txz
+    pkg install os-tincdcustom-*.txz
 
 ### 1. your network
+
 
 1. copy the `/usr/local/etc/tinc/example` folder to `/usr/local/etc/tinc/yournetwork`
 1. enter `yournetwork` into `/usr/local/etc/tinc/nets.boot` to let this network be started on boot
@@ -36,11 +40,9 @@ Utilize the full power of tinc
 1. enter the public key of the "other server" into the according `theotherservername` file and adjust the subnet the other server offers (or subnets)
 
 
-### 4. Add the interface 
+### 4. OPNsense Interface/Gateway/Route/FW configuration 
 
-1. Add the tinc0 interface in the interfaces mask in the opnsense GUI to be able to add routes as you need them in the rules
-
-**Thats it .. and surely more to come**
+Please see this [answer for a brief description](http://serverfault.com/a/830072/281162)
 
 
 ## Service mangement
