@@ -1,2 +1,2 @@
 #!/bin/sh
-ifconfig tinc0 10.1.5.254/24 
+ifconfig $INTERFACE 10.1.5.254/24
