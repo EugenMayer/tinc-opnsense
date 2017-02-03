@@ -1,4 +1,4 @@
 #!/bin/sh
 set -e
 # out of any reason we cant use $INTERFACE here since even if we set Device=/dev/tinc0 $INTERFACE will be tun0 here
-ifconfig tinc0 10.1.5.254/24
+ifconfig tinc0 172.16.0.0/24 172.16.0.2
