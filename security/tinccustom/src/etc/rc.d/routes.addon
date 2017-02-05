@@ -69,6 +69,6 @@ if (empty($argument)) {
 }
 log_error("rc.newwanip: on (IP address: {$curwanip}) (interface: {$interface_descr}[{$interface}]) (real interface: {$interface_real}).");
 
-echo "configuring $interface"
+echo "configuring $interface";
 system_routing_configure($interface);
 setup_gateways_monitor();
