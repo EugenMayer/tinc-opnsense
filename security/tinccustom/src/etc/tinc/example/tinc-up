@@ -3,4 +3,4 @@ set -e
 # out of any reason we cant use $INTERFACE here since even if we set Device=/dev/tinc0 $INTERFACE will be tun0 here
 ifconfig tinc0 172.16.0.0/24 172.16.0.2
 # needed to re-add the routes we added for our networks in opnsense
-/usr/local/opnsense/service/configd_ctl.py interface newip tinc0
+configctl tincdcustom reload_routes tinc0
