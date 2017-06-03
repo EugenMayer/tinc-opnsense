@@ -66,7 +66,7 @@ Connect on your opnsense box
  
     mkdir -p /usr/devel && cd /usr/devel 
     git clone https://github.com/EugenMayer/tinc-opnsense
-    cd tinc-opnsense/security/tincdcustom
+    cd tinc-opnsense/security/tinccustom
     make package
     pkg install work/pkg/os-tincdcustom-*
     
